@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameControllerScript : MonoBehaviour
 {
     public string[] levels;
+    public GameObject helpPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,11 @@ public class GameControllerScript : MonoBehaviour
 
     public void OnClickHelp()
     {
-        
+        helpPanel.gameObject.SetActive(true);
+    }
+    public void OnClickHelpClose()
+    {
+        helpPanel.gameObject.SetActive(false);
     }
 
     public void OnClickStart()

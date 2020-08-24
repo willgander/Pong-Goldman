@@ -56,7 +56,6 @@
     <Compile Include="Assets\Scripts\AIPaddleMove.cs" />
     <Compile Include="Assets\Scripts\GameControllerScript.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
-    <Compile Include="Assets\Test. Ignore this_\Also a test..cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
